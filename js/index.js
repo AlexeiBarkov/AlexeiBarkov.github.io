@@ -34,9 +34,9 @@ document.querySelectorAll('.menu_nav button').forEach(button => {
             }, 500);
         });
 
-        const greetingScrollWrap = document.querySelector('.greeting_wrap .scroll_wrap');
-        if (greetingScrollWrap) {
-            greetingScrollWrap.scrollTop = 0;
+        const scrollWraps = document.querySelectorAll('.scroll_wrap');
+        if (scrollWraps) {
+            scrollWraps.scrollTop = 0;
         }
 
         const hamburgerWrap = document.querySelector('.hambuger_wrap');
