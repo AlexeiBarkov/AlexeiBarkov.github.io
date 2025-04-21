@@ -1427,7 +1427,7 @@ footer p:first-child {
     
     .world_wrap .scroll_wrap .team .company {
         flex-direction: column;
-        border: 1px solid #212121;
+        /* border: 1px solid #212121; */
     }
 
     .world_wrap .scroll_wrap .team .company_con {
